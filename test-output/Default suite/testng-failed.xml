@@ -5,6 +5,8 @@
     <classes>
       <class name="com.sdet.qa.testcases.HomePageTest">
         <methods>
+          <include name="validateWikiHeader"/>
+          <include name="validateHeaderTest"/>
           <include name="setup"/>
           <include name="fetchWikiDate"/>
           <include name="tearDown"/>

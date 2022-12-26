@@ -20,7 +20,8 @@ public class WikiHomePage extends TestBase{
 	@FindBy(xpath="//td[contains(text(),'India')]")
 	WebElement country;
 	
-	@FindBy(xpath="//tr[@xpath='1']//li[contains(text(),'17')]")
+	//@FindBy(xpath="//tr[@xpath='1']//li[contains(text(),'17')]")
+	@FindBy(xpath="//body[1]/div[3]/div[3]/div[5]/div[1]/table[1]/tbody[1]/tr[12]")
 	WebElement date;
 	
 	public WikiHomePage() {
