@@ -8,6 +8,8 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+
+import com.sdet.qa.pages.ImdbHomePage;
 import com.sdet.qa.util.TestUtil;
 
 public class TestBase {
@@ -44,7 +46,6 @@ public class TestBase {
 		
 		
 //			driver.get(prop.getProperty("url"));
-//			driver.get(prop.getProperty("url1"));
 		
 		
 		
